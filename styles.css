@@ -1,0 +1,66 @@
+/* general */
+section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.brand-color {
+  color: #2F5159;
+}
+
+.subtitle-color {
+  color: #345e68;
+}
+
+/* Header */
+header {
+  height: 80px;
+}
+
+.header-inner  {
+  position: relative;
+}
+
+.header-btn {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+  border-radius: 25px;
+
+  --bs-btn-padding-y: .25rem;
+  --bs-btn-padding-x: .5rem;
+  --bs-btn-font-size: .75rem;
+  --bs-btn-bg: #2F5159;
+  --bs-btn-border-color: #2F5159;
+  --bs-btn-hover-bg: #2F5159;
+  --bs-btn-active-bg: #2F5159;
+}
+
+/* carousel */
+
+#carousel-area {
+  max-height: 500px;
+}
+
+.carousel-mock-item {
+  width: 400px;
+}
+
+.carousel-mock-item img {
+  height: 500px;
+}
+
+/* about */
+.caption-text {
+  color: #479A8D;
+}
+
+/* steps */
+#steps {
+  background-color: #2F5159;
+  color: #fff;
+  padding: 20px;
+}
+#steps .card-body {
+  color: #fff;
+}
