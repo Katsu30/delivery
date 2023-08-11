@@ -64,3 +64,15 @@ header {
 #steps .card-body {
   color: #fff;
 }
+
+/* menus */
+.menu-card {
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 16px;
+}
+
+.purchase-btn {
+  display: block;
+}
