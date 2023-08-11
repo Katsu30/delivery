@@ -76,3 +76,16 @@ header {
 .purchase-btn {
   display: block;
 }
+
+/* footer */
+footer {
+  background-color: #2F5159;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
