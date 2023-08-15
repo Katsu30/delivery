@@ -4,6 +4,11 @@ section {
   margin-bottom: 20px;
 }
 
+section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .brand-color {
   color: #2F5159;
 }
@@ -12,24 +17,18 @@ section {
   color: #345e68;
 }
 
+.card {
+  border-radius: 0%;
+}
+
 /* Header */
 header {
   height: 80px;
 }
 
-.header-inner  {
-  position: relative;
-}
-
 .header-btn {
-  position: absolute;
-  right: 5px;
-  top: 20px;
   border-radius: 25px;
 
-  --bs-btn-padding-y: .25rem;
-  --bs-btn-padding-x: .5rem;
-  --bs-btn-font-size: .75rem;
   --bs-btn-bg: #2F5159;
   --bs-btn-border-color: #2F5159;
   --bs-btn-hover-bg: #2F5159;
@@ -37,8 +36,8 @@ header {
 }
 
 /* carousel */
-
 #carousel-area {
+  margin-top: 0;
   max-height: 500px;
 }
 
@@ -51,8 +50,19 @@ header {
 }
 
 /* about */
+.about-text {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.about-title {
+  letter-spacing: 10px;
+}
+
 .caption-text {
   color: #479A8D;
+  font-size: 50px;
+  letter-spacing: 10px;
 }
 
 /* steps */
