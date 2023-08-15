@@ -26,6 +26,10 @@ header {
   height: 80px;
 }
 
+.header-title-text {
+  letter-spacing: 5px;
+}
+
 .header-btn {
   border-radius: 25px;
 
@@ -38,7 +42,7 @@ header {
 /* carousel */
 #carousel-area {
   margin-top: 0;
-  max-height: 500px;
+  max-height: 600px;
 }
 
 .carousel-mock-item {
@@ -46,7 +50,7 @@ header {
 }
 
 .carousel-mock-item img {
-  height: 500px;
+  height: 600px;
 }
 
 /* about */
@@ -71,8 +75,17 @@ header {
   color: #fff;
   padding: 20px;
 }
+
 #steps .card-body {
   color: #fff;
+}
+
+.step-icon {
+  font-size: 120px;
+}
+
+.step-title {
+  letter-spacing: 5px;
 }
 
 /* menus */
