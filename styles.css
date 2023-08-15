@@ -125,3 +125,7 @@ footer ul {
   list-style: none;
   padding: 0;
 }
+
+.footer-title {
+  letter-spacing: 5px;
+}
