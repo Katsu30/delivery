@@ -89,11 +89,24 @@ header {
 }
 
 /* menus */
+.menus-title {
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+
 .menu-card {
   border: none;
   border-radius: 0;
   background-color: transparent;
   padding: 16px;
+}
+
+.menu-title {
+  color: #2F5159;
+}
+
+.menu-description {
+  color: #15d8c1;
 }
 
 .purchase-btn {
